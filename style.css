@@ -18,13 +18,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 
+    @media (max-width:700px){
+        gap: 1rem;
+    }
 }
 
 
 h1{
     color: #F5F8E9 ;
     font-size: 3rem;
+
+    @media (max-width:700px){
+        font-size: 1.5rem;
+    }
 }
+
 
 .main-color{
     color:#8CAB3E ;
@@ -57,9 +65,12 @@ a:link, a:active{
     background-color: #F0F8DA ;
     border: #8CAB3E  solid 1.5px;
     border-radius: 1rem;
+    font-size: 3rem;
+
 
     @media (max-width:700px){
         padding: 1.5rem 3rem;
+        font-size: 2rem;
     }
 }
 
