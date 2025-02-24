@@ -1,10 +1,29 @@
-body{
-    text-align: center;
+html{
+    font-size: 16px;
+    font-family: vogue;
 }
+
+body{
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-sizing: border-box;
+    background-image: url(/items/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
 h1{
-    font-family: 'Koulen', cursive;
-    color: #8CAB3E ;
-    font-size: 190%;
+    color: #F5F8E9 ;
+    font-size: 3rem;
 }
 
 .main-color{
@@ -12,44 +31,35 @@ h1{
 }
 
 .center{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    width: 100%;
 }
 
-.padding-border{
-    padding:70px 0 70px;
-    margin: 30px 0%;
-    border: #8CAB3E  groove 2px;
-    border-radius: 15px;
-}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+    gap: 16px; /* space between columns */
+    @media (max-width:700px){
+        grid-template-columns: 1fr; /* 2 equal columns */
+    }
 
-.text{
-    font-family: 'Koulen', cursive;
-    font-size: x-large;
-    color: #8CAB3E ;
-}
-
-.logo{
-    width: 20%;
-}
+  }
 
 a:link, a:active{
     text-decoration: none;
-    margin: 0 5%;
 }
 
 
 .icon-button{
-    padding: 8% 15%;
-    background-color: #f4fedb ;
+    padding: 3rem 4rem;
+    background-color: #F0F8DA ;
     border: #8CAB3E  solid 1.5px;
-    border-radius: 7px;
-    margin-bottom: 5px;
+    border-radius: 1rem;
+
+    @media (max-width:700px){
+        padding: 1.5rem 3rem;
+    }
 }
 
-@media (max-width:1000px){
-    .margin{margin-top: 10%;}
-}
-
-@media (min-width:1000px){
-    .icon-button{padding: 6% 10%}
-}
