@@ -1,6 +1,8 @@
 html{
     font-size: 16px;
-    font-family: vogue;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body{
@@ -14,7 +16,7 @@ body{
     align-items: center;
     gap: 2rem;
     box-sizing: border-box;
-    background-image: url(/items/background.png);
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/hilalpines-ai.firebasestorage.app/o/background.webp?alt=media&token=8727a1d9-e1b3-4e0f-975f-ea45614c7435');
     background-repeat: no-repeat;
     background-size: cover;
 
