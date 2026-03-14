@@ -82,3 +82,10 @@ a:link, a:active{
     }
 }
 
+.location-display {
+    color: #F5F8E9;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    letter-spacing: 0.03em;
+}
+
